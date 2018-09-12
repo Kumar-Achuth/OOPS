@@ -1,0 +1,5 @@
+{"stock"  :
+    {  
+   "name" : ["Google", "Yahoo", "Amazon"],"sharevalue" : [20,45,50], "shareprice": [25,45,60]
+}
+}
