@@ -1,1 +1,5 @@
-{"stock":[{"stockName":"Prada","sharePrice":"175","stockPrice":"60"},{"stockName":"Facebook","sharePrice":"280","stockPrice":"89"},{"stockName":"Apple","sharePrice":"1500","stockPrice":"150"},{"stockName":"Nokia","sharePrice":"50","stockPrice":"15"},{"stockName":"Versace","sharePrice":"60","stockPrice":"100"}]}
+{"stock":[{"stockName":"Prada","sharePrice":"175","stockPrice":"60"},
+    {"stockName":"Facebook","sharePrice":"280","stockPrice":"89"},
+    {"stockName":"Apple","sharePrice":"1500","stockPrice":"150"},
+    {"stockName":"Nokia","sharePrice":"50","stockPrice":"15"},
+    {"stockName":"Versace","sharePrice":"60","stockPrice":"100"}]}
