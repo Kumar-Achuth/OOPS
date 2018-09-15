@@ -36,6 +36,9 @@ var price = prompt('Enter the stock price : ')
     }
     console.log(sum)
     console.log(stock_object)
+    var date = new Date()
+    var n = date.getDate()+ ',' +(date.getHours())+ ':'+(date.getMinutes())+ ':' +(date.getMinutes())
+    console.log('The purchase time is : ' +n )
 }
 /**
  * Function to sell shares 
@@ -48,15 +51,18 @@ sell()
             if (err) throw err
     
         }
+        
     )
     console.log(stock_object)
-}
-
-
+    var date = new Date()
+    var n = date.getDate()+ ',' +(date.getHours())+ ':'+(date.getMinutes())+ ':' +(date.getMinutes())
+    console.log('The purchase time is : ' +n )}
 printstockreport()
 {
     console.log(stock_object)
-}
+    var date = new Date()
+    var n = date.getDate()+ ',' +(date.getHours())+ ':'+(date.getMinutes())+ ':' +(date.getMinutes())
+    console.log('The purchase time is : ' +n )}
 valueofshares()
 {
     for (var i = 0 ; i <= stock_object.stocks.length-1 ; i++)
