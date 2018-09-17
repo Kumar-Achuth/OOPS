@@ -15,7 +15,7 @@ class LinkedList {
     }
 
     add(element) {
-        // creates a new node
+        // creates a new node 
         var node = new Node(element);
 
         // to store current node
