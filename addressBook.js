@@ -45,9 +45,9 @@ class AddressBook {
        // console.log(address_object.address)
     }
     compare(a, b) {
-        if (a.Firstname < b.Firstname)
+        if (a.Firstname.toLowerCase() < b.Firstname.toLowerCase())
             return -1;
-        if (a.Firstname > b.Firstname)
+        if (a.Firstname.toLowerCase() > b.Firstname.toLowerCase())
             return 1;
         return 0
     }
